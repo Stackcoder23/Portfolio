@@ -47,6 +47,7 @@ h4{
 
 @media only screen and (max-width: 600px){
     .bgeffect{
+        margin-top: 10%;
         margin-bottom: 5%;
     }
     .card{
