@@ -1,0 +1,32 @@
+.pro-container{
+    background-color: rgb(36, 35, 35);
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    /* top: 20%; */
+    height: 80%;
+    width: 80%;
+    border-radius: 5% 15%;
+    line-height: 80%;
+    position: sticky;
+    color: aliceblue;
+}
+
+.insidepro{
+    padding: 5%;
+    background-color: rgb(11, 11, 27);
+    border-radius: 20% 30%;
+}
+
+.cards{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.procard{
+    margin: 5%;
+}
+

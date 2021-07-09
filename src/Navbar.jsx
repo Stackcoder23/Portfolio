@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Navbar } from 'rsuite';
 import './nav.css';
 
 const Nav = () => {
@@ -9,7 +8,7 @@ const Nav = () => {
         <div className="nav">
             <p className="logoname">Stackcoder</p>
             <a>Home</a>
-            <a>Projects</a>
+            <a href="#projects">Projects</a>
             <a>About</a>
         </div>
         </>

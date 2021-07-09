@@ -2,7 +2,7 @@
     background-color: black;
     color: aliceblue;
     position: fixed;
-    height: 6%;
+    height: 7%;
     width: 100%;
     margin-top: 0%;
     padding-top: 0%;
@@ -10,6 +10,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 
 .nav a{
@@ -28,6 +34,9 @@
 .nav a:hover{
     border-bottom: 2px solid cyan;
     color: cyan;
+    /* padding-left: 2%;
+    padding-right: 2%; */
+    display: block;
 }
 
 @media only screen and (max-width: 600px){
