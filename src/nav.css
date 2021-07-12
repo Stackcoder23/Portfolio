@@ -1,4 +1,5 @@
 .nav{
+    z-index: 2;
     background-color: black;
     color: aliceblue;
     position: fixed;
@@ -34,8 +35,6 @@ a, a:hover, a:focus, a:active {
 .nav a:hover{
     border-bottom: 2px solid cyan;
     color: cyan;
-    /* padding-left: 2%;
-    padding-right: 2%; */
     display: block;
 }
 

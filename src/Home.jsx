@@ -6,7 +6,7 @@ import dp from './images/vector-min.png';
 const Home = () => {
     return(
         <>
-            <div className="bgeffect">
+            <div id="home" className="bgeffect">
             <div className="card">
                 <img src={dp}/>
                 <div className="info">

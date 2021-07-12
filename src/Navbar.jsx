@@ -7,9 +7,9 @@ const Nav = () => {
         <>
         <div className="nav">
             <p className="logoname">Stackcoder</p>
-            <a>Home</a>
+            <a href="#home">Home</a>
             <a href="#projects">Projects</a>
-            <a>About</a>
+            <a href="#footer">Contact</a>
         </div>
         </>
     );

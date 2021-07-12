@@ -20,6 +20,9 @@
 
 .cards{
     display: flex;
+    margin: 5%;
+    column-count: 3;
+    gap: 5%;
 }
 
 .wrap{
@@ -27,6 +30,90 @@
 }
 
 .procard{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: 1px solid rgb(15, 228, 228);
+    padding: 1%;
+    background-color: #2e2929;
+    border-radius: 25%;
+    margin-bottom: 5%;
+}
+
+
+
+.pro-container {
+	position: relative;
+	/* background: linear-gradient(0deg, #000, #272727); */
+}
+
+.pro-container:before, .pro-container:after {
+    border-radius: 5% 15%;
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(25deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 2px);
+	height: calc(100% + 2px);
+	z-index: -1;
+	animation: steam 70s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.pro-container:after {
+	filter: blur(20px);
+}
+
+
+
+.proimg-c{
+    height: 200px;
+    display: flex;
+    padding: 5%;
+}
+
+.proimg{
+    border-radius: 10%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.pro-info{
+    background-color: rgb(20, 20, 20);
+    padding: 10%;
+    height: 45%;
+    border-radius: 30%;
     margin: 5%;
+}
+
+p{
+    line-height: 120%;
+}
+
+@media only screen and (max-width: 600px){
+    .procard{
+        width: 80%;
+        margin: 10%;
+    }
 }
 
