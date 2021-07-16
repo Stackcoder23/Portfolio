@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(61, 59, 59);
   margin: 0;
